@@ -482,3 +482,16 @@ TopoProfile Studio is intended to assist with GIS-based terrain profile generati
 The plugin does not replace professional surveying, geological, engineering, or geotechnical analysis.
 
 Users are responsible for validating generated profiles against the original datasets and the requirements of their specific project.
+
+---
+
+## Interfaces
+
+<img width="1192" height="817" alt="img1a" src="https://github.com/user-attachments/assets/ea76d058-6bc1-43eb-b3b1-7ea496008ecc" />
+
+<img width="1189" height="817" alt="img2" src="https://github.com/user-attachments/assets/24a9be40-89e0-47b7-9ee1-4b57927f303c" />
+
+<img width="1186" height="815" alt="img3" src="https://github.com/user-attachments/assets/c11f40db-6b33-435b-bb6b-f2f78e30f31a" />
+
+<img width="1191" height="816" alt="img4" src="https://github.com/user-attachments/assets/c09cedb4-b5be-442f-aedd-72dcc38d75a5" />
+
