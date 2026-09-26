@@ -12,10 +12,11 @@ version=1.0.0
 author=Dr. Geol. Faustino Cetraro
 email=geol-faustino@libero.it
 
-tracker=https://github.com/user/topoprofilestudio/issues
-repository=https://github.com/user/topoprofilestudio
+tracker=https://github.com/drFaustino/topoprofilestudio
+repository=https://github.com/drFaustino/topoprofilestudio
+homepage=https://github.com/drFaustino/topoprofilestudio
+
 tags=profile,elevation,dtm,topographic,section,cross-section,profilo altimetrico,sezione geologica,geology
-homepage=https://github.com/user/topoprofilestudio
 
 category=Plugins
 icon=icon.png
