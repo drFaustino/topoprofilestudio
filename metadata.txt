@@ -1,0 +1,25 @@
+[general]
+name=TopoProfile Studio
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+
+description=Professional elevation profiles from DEMs or contour lines, featuring an interactive chart, map indicator, geological/structural markers, multiple profile management, and image/DXF export.
+
+about=Create professional topographic/elevation profiles: manually draw the profile path on the map; sample from raster DEMs or contour lines with elevation attributes (direct intersection with the profile path and interpolation of intermediate values); modern chart with segment distances, cumulative distances, and elevations; synchronized map indicator when hovering over the profile; customizable direction labels; labeled identification points along the section (faults, thrusts, lithological changes, tests, etc.); three-level profile smoothing (light, medium, strong); save profiles within the QGIS project and as independent JSON files; load profile information directly from the project or from a separate file; export as image (PNG/SVG/JPG/PDF) and as 2D/3D DXF. The panel window is always independent (never dockable) and features a modern interface.
+
+version=1.0.0
+
+author=Dr. Geol. Faustino Cetraro
+email=geol-faustino@libero.it
+
+tracker=https://github.com/user/topoprofilestudio/issues
+repository=https://github.com/user/topoprofilestudio
+tags=profile,elevation,dtm,topographic,section,cross-section,profilo altimetrico,sezione geologica,geology
+homepage=https://github.com/user/topoprofilestudio
+
+category=Plugins
+icon=icon.png
+
+experimental=False
+deprecated=False
+hasProcessingProvider=no

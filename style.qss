@@ -1,0 +1,629 @@
+/* ============================================================
+   TopoProfile Studio
+   Stile locale del plugin
+   ============================================================ */
+
+
+/* ============================================================
+   FINESTRA PRINCIPALE
+   ============================================================ */
+
+QWidget#tpRoot {
+    background: #f5f7fb;
+}
+
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+QFrame#tpHeader {
+    background: #173f5f;
+    border: 0;
+    border-radius: 10px;
+}
+
+QLabel#tpTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+}
+
+QLabel#tpSubtitle {
+    color: #cfe8ff;
+    font-size: 11px;
+    padding: 0;
+}
+
+QLabel#tpStatus {
+    color: #b9f6ca;
+    font-weight: 700;
+    padding: 8px 12px;
+}
+
+
+/* ============================================================
+   TAB
+   ============================================================ */
+
+QTabWidget {
+    background: transparent;
+}
+
+QTabWidget::pane {
+    border: 1px solid #d9e0ea;
+    border-radius: 10px;
+    background: #f8fafc;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: #e8edf5;
+    color: #33415c;
+    padding: 9px 14px;
+    margin-right: 3px;
+    border: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+QTabBar::tab:hover {
+    background: #dce5f1;
+    color: #173f5f;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    color: #1769aa;
+    font-weight: 700;
+}
+
+QTabBar::tab:disabled {
+    color: #9aa5b5;
+    background: #edf1f6;
+}
+
+
+/* ============================================================
+   GROUP BOX
+   ============================================================ */
+
+QGroupBox {
+    background: #ffffff;
+    border: 1px solid #d9e0ea;
+    border-radius: 10px;
+    margin-top: 12px;
+    padding: 12px;
+    font-weight: 600;
+    color: #25324a;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 6px;
+    color: #25324a;
+}
+
+
+/* ============================================================
+   CAMPI DI INPUT
+   ============================================================ */
+
+QLineEdit,
+QDoubleSpinBox,
+QSpinBox,
+QComboBox,
+QListWidget {
+    background: #ffffff;
+    color: #25324a;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 5px;
+    selection-background-color: #dbeafe;
+    selection-color: #173f5f;
+}
+
+QLineEdit:focus,
+QDoubleSpinBox:focus,
+QSpinBox:focus,
+QComboBox:focus,
+QListWidget:focus {
+    border: 1px solid #1976d2;
+}
+
+QLineEdit:disabled,
+QDoubleSpinBox:disabled,
+QSpinBox:disabled,
+QComboBox:disabled,
+QListWidget:disabled {
+    background: #eef2f7;
+    color: #94a3b8;
+    border-color: #d5dbe4;
+}
+
+
+/* ============================================================
+   COMBOBOX
+   ============================================================ */
+
+QComboBox {
+    padding-right: 24px;
+}
+
+QComboBox:hover {
+    border-color: #94a3b8;
+}
+
+QComboBox QAbstractItemView {
+    background: #ffffff;
+    color: #25324a;
+    border: 1px solid #cbd5e1;
+    selection-background-color: #dbeafe;
+    selection-color: #173f5f;
+    outline: 0;
+}
+
+QComboBox QAbstractItemView::item {
+    padding: 6px 8px;
+    color: #25324a;
+    background: #ffffff;
+}
+
+QComboBox QAbstractItemView::item:hover {
+    background: #eef5ff;
+    color: #173f5f;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    background: #dbeafe;
+    color: #173f5f;
+}
+
+
+/* ============================================================
+   LISTA PROFILI
+   ============================================================ */
+
+QListWidget {
+    padding: 4px;
+}
+
+QListWidget::item {
+    padding: 7px 8px;
+    border-radius: 5px;
+}
+
+QListWidget::item:hover {
+    background: #eef5ff;
+}
+
+QListWidget::item:selected {
+    background: #dbeafe;
+    color: #173f5f;
+    font-weight: 600;
+}
+
+
+/* ============================================================
+   PULSANTI BASE
+   ============================================================ */
+
+QPushButton {
+    border: 0;
+    border-radius: 7px;
+    padding: 7px 12px;
+    font-weight: 600;
+    min-height: 24px;
+}
+
+QPushButton:pressed {
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+QPushButton:disabled {
+    background: #cbd5e1;
+    color: #f1f3f6;
+}
+
+
+/* ============================================================
+   PULSANTE PRIMARY - BLU
+   ============================================================ */
+
+QPushButton#btnPrimary {
+    background: #1976d2;
+    color: #ffffff;
+}
+
+QPushButton#btnPrimary:hover {
+    background: #1565c0;
+}
+
+QPushButton#btnPrimary:pressed {
+    background: #0d47a1;
+}
+
+QPushButton#btnPrimary:checked {
+    background: #0d47a1;
+}
+
+QPushButton#btnPrimary:disabled {
+    background: #a9c7e8;
+    color: #eef4fb;
+}
+
+
+/* ============================================================
+   PULSANTE SUCCESS - VERDE
+   ============================================================ */
+
+QPushButton#btnSuccess {
+    background: #16a34a;
+    color: #ffffff;
+}
+
+QPushButton#btnSuccess:hover {
+    background: #15803d;
+}
+
+QPushButton#btnSuccess:pressed {
+    background: #166534;
+}
+
+QPushButton#btnSuccess:disabled {
+    background: #a9d8b9;
+    color: #eef8f1;
+}
+
+
+/* ============================================================
+   PULSANTE SECONDARY - GRIGIO/BLU
+   ============================================================ */
+
+QPushButton#btnSecondary {
+    background: #64748b;
+    color: #ffffff;
+}
+
+QPushButton#btnSecondary:hover {
+    background: #475569;
+}
+
+QPushButton#btnSecondary:pressed {
+    background: #334155;
+}
+
+QPushButton#btnSecondary:checked {
+    background: #475569;
+}
+
+QPushButton#btnSecondary:disabled {
+    background: #c3cad4;
+    color: #f1f3f6;
+}
+
+
+/* ============================================================
+   PULSANTE WARNING - ARANCIONE
+   ============================================================ */
+
+QPushButton#btnWarning {
+    background: #f59e0b;
+    color: #ffffff;
+}
+
+QPushButton#btnWarning:hover {
+    background: #d97706;
+}
+
+QPushButton#btnWarning:pressed {
+    background: #b45309;
+}
+
+QPushButton#btnWarning:checked {
+    background: #b45309;
+}
+
+
+/* ============================================================
+   PULSANTE DANGER - ROSSO
+   ============================================================ */
+
+QPushButton#btnDanger {
+    background: #dc2626;
+    color: #ffffff;
+}
+
+QPushButton#btnDanger:hover {
+    background: #b91c1c;
+}
+
+QPushButton#btnDanger:pressed {
+    background: #991b1b;
+}
+
+QPushButton#btnDanger:disabled {
+    background: #e8aaaa;
+    color: #fff4f4;
+}
+
+
+/* ============================================================
+   PULSANTE ACCENT - VIOLA
+   ============================================================ */
+
+QPushButton#btnAccent {
+    background: #7c3aed;
+    color: #ffffff;
+}
+
+QPushButton#btnAccent:hover {
+    background: #6d28d9;
+}
+
+QPushButton#btnAccent:pressed {
+    background: #5b21b6;
+}
+
+
+/* ============================================================
+   PULSANTI DI NAVIGAZIONE
+   ============================================================ */
+
+QPushButton#navButton {
+    background: #64748b;
+    color: white;
+}
+
+QPushButton#navButton:hover {
+    background: #475569;
+}
+
+
+/* ============================================================
+   TOOL BUTTON
+   ============================================================ */
+
+QToolButton {
+    background: #64748b;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-weight: 600;
+}
+
+QToolButton:hover {
+    background: #475569;
+}
+
+QToolButton:pressed {
+    background: #334155;
+}
+
+
+/* ============================================================
+   RADIO BUTTON
+   ============================================================ */
+
+QRadioButton {
+    spacing: 6px;
+    padding: 3px;
+    color: #33415c;
+}
+
+QRadioButton:hover {
+    color: #1769aa;
+}
+
+
+/* ============================================================
+   CHECKBOX
+   ============================================================ */
+
+QCheckBox {
+    spacing: 6px;
+    padding: 3px;
+    font-weight: 600;
+    color: #33415c;
+}
+
+QCheckBox:hover {
+    color: #1769aa;
+}
+
+
+/* ============================================================
+   TESTI INFORMATIVI
+   ============================================================ */
+
+QLabel#tpHint {
+    color: #64748b;
+    padding: 6px;
+}
+
+QLabel#tpStats {
+    background: #eef4ff;
+    border: 1px solid #d5e5ff;
+    border-radius: 6px;
+    padding: 7px;
+    color: #274c77;
+    font-weight: 600;
+}
+
+QLabel#dialogInfo {
+    color: #666666;
+    font-size: 11px;
+}
+
+
+/* ============================================================
+   SPIN BOX
+   ============================================================ */
+
+QDoubleSpinBox::up-button,
+QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 18px;
+    border-left: 1px solid #cbd5e1;
+    border-top-right-radius: 6px;
+    background: #eef2f7;
+}
+
+QDoubleSpinBox::up-button:hover,
+QSpinBox::up-button:hover {
+    background: #dbe4f0;
+}
+
+QDoubleSpinBox::down-button,
+QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 18px;
+    border-left: 1px solid #cbd5e1;
+    border-bottom-right-radius: 6px;
+    background: #eef2f7;
+}
+
+QDoubleSpinBox::down-button:hover,
+QSpinBox::down-button:hover {
+    background: #dbe4f0;
+}
+
+QDoubleSpinBox::up-arrow,
+QSpinBox::up-arrow {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid #33415c;
+}
+
+QDoubleSpinBox::down-arrow,
+QSpinBox::down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #33415c;
+}
+
+
+/* ============================================================
+   SEPARATORI
+   ============================================================ */
+
+QFrame[frameShape="4"] {
+    color: #d9e0ea;
+}
+
+
+/* ============================================================
+   DIALOGHI DEL PLUGIN
+   ============================================================ */
+
+QDialog {
+    background: #f5f7fb;
+}
+
+QDialog QLabel {
+    color: #25324a;
+}
+
+QDialog QLineEdit,
+QDialog QComboBox,
+QDialog QDoubleSpinBox,
+QDialog QSpinBox {
+    background: #ffffff;
+    color: #25324a;
+}
+
+
+/* ============================================================
+   QDIALOGBUTTONBOX
+   ============================================================ */
+
+QDialogButtonBox QPushButton {
+    min-height: 24px;
+    max-height: 28px;
+    padding: 4px 16px;
+    border-radius: 6px;
+}
+
+
+/* ============================================================
+   MARKER / EXPORT
+   ============================================================ */
+
+QPushButton#markerOkButton,
+QPushButton#exportOkButton {
+    background: #16a34a;
+    color: white;
+}
+
+QPushButton#markerOkButton:hover,
+QPushButton#exportOkButton:hover {
+    background: #15803d;
+}
+
+QPushButton#markerCancelButton,
+QPushButton#exportCancelButton {
+    background: #dc2626;
+    color: white;
+}
+
+QPushButton#markerCancelButton:hover,
+QPushButton#exportCancelButton:hover {
+    background: #b91c1c;
+}
+
+
+/* ============================================================
+   BROWSE
+   ============================================================ */
+
+QPushButton#browseButton {
+    background: #64748b;
+    color: white;
+    min-height: 26px;
+}
+
+QPushButton#browseButton:hover {
+    background: #475569;
+}
+
+
+/* ============================================================
+   MESSAGE BOX / INPUT / FILE DIALOG
+   ============================================================ */
+
+QMessageBox,
+QInputDialog,
+QFileDialog {
+    background: #f5f7fb;
+}
+
+QMessageBox QLabel,
+QInputDialog QLabel,
+QFileDialog QLabel {
+    color: #25324a;
+}
+
+QMessageBox QPushButton,
+QInputDialog QPushButton,
+QFileDialog QPushButton {
+    min-height: 26px;
+    max-height: 30px;
+    padding: 4px 14px;
+    border-radius: 6px;
+}
+
+QMessageBox QPushButton:hover,
+QInputDialog QPushButton:hover,
+QFileDialog QPushButton:hover {
+    background: #dbeafe;
+}
